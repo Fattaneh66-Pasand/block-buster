@@ -11,5 +11,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: 3-demo-kustomize-git-bb
-    namespace: flux-system
   targetNamespace: 3-demo
