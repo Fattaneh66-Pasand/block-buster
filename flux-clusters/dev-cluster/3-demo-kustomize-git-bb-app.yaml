@@ -11,4 +11,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: 3-demo-new
-  targetNamespace: 3-demo
+  targetNamespace: 3-demo 
