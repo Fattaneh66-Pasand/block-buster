@@ -5,5 +5,5 @@ metadata:
   name: 8-demo-image-repo-bb-app
   namespace: flux-system
 spec:
-  image: docker.io/fattaneh/bb-app-flux-demo
+  image: docker.io/fattaneh/bb-app-flux-demo-killercoda
   interval: 10s
