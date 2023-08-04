@@ -2,12 +2,14 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: infra-security-kustomize-git-sealed-secrets
+  name: infra-database-kustomize-git-sealed-mysql
   namespace: flux-system
 spec:
-  interval: 1h0m0s
-  path: ./bitnami-sealed-secrets
+  interval: 10s
+  path: ./database
   prune: true
   sourceRef:
     kind: GitRepository
     name: infra-source-git
+  targetNamespace: database
+  
